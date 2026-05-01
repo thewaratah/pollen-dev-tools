@@ -1,12 +1,30 @@
 {
-  "name": "Pollen Dev Tools",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pollen-dev-tools",
+  "version": "1.0.0",
   "description": "Development workflow skills for Claude Code / Cowork: planning, execution, prompt engineering, backend/frontend patterns, subagent orchestration, and CTOC+ reprompt pre-flight.",
+  "owner": {
+    "name": "Evan Stroeve Consultancy",
+    "url": "https://github.com/evanstroeveconsultancy/pollen-dev-tools"
+  },
   "plugins": [
     {
-      "id": "pollen-dev-tools",
-      "repo": "evanstroeveconsultancy/pollen-dev-tools",
       "name": "pollen-dev-tools",
-      "description": "Development workflow skills for solo agentic development: planning, execution, prompt engineering, backend/frontend patterns, subagent orchestration, and CTOC+ reprompt pre-flight."
+      "description": "Development workflow skills for solo agentic development: planning, execution, prompt engineering, backend/frontend patterns, subagent orchestration, and CTOC+ reprompt pre-flight.",
+      "source": "./",
+      "version": "0.2.0",
+      "author": {
+        "name": "Evan, Pollen Hospitality"
+      },
+      "keywords": [
+        "planning",
+        "development",
+        "prompt-engineering",
+        "subagents",
+        "workflows",
+        "reprompt",
+        "ctoc"
+      ]
     }
   ]
 }
